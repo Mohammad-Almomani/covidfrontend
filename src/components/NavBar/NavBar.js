@@ -30,13 +30,16 @@ export default function NavBar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
+      <Typography variant="h6" component="div">
+        Menu
+      </Typography>
       <Divider />
       <Button onClick={() => handleNavigate("/")}>Home</Button>
-
+      <Divider />
       <Button onClick={() => handleNavigate("/AllCountries")}>
         All Countries
       </Button>
-
+      <Divider />
       <Button onClick={() => handleNavigate("/MyRecords")}>My Records</Button>
     </Box>
   );

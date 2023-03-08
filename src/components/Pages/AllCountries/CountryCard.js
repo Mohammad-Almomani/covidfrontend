@@ -43,7 +43,6 @@ export default function CountryCard({ idx, item }) {
           boxShadow: 2,
           color: (theme) =>
             theme.palette.mode === "dark" ? "grey.300" : "grey.800",
-          // p: 1,
           mb: 1,
           borderRadius: 1,
           fontSize: "0.875rem",

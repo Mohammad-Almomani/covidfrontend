@@ -39,7 +39,7 @@ export default function Statistics() {
         <Grid item xs={12} md={3} sx={{ backgroundColor: "#FD0072", borderRadius: 1.5 ,color: "white", mt:2, mr:16}}>
           <h3>Total Deaths: {data?.TotalDeaths}</h3>
         </Grid>
-        <Grid item xs={12} md={3} sx={{ backgroundColor: "#FD0072", borderRadius: 1.5 ,color: "white", mt:2}}>
+        <Grid item xs={12} md={3} sx={{ backgroundColor: "#FD0072", borderRadius: 1.5 ,color: "white", mt:2}} className="lastStatis">
           <h3>Total Recovered: {data?.TotalRecovered}</h3>
         </Grid>
       </Grid>
