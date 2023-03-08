@@ -32,22 +32,16 @@ export default function Statistics() {
       <Grid item xs={12}>
         <h2>World Total Statistics</h2>
       </Grid>
-      <Grid container spacing={5} mt={5}>
-        <Grid item xs={12} md={4}>
+      <Grid container mt={5}>
+        <Grid item xs={12} md={3} sx={{ backgroundColor: "#FD0072", borderRadius: 1.5 ,color: "white", mt:2, mr:16}} >
           <h3>Total Confirmed: {data?.TotalConfirmed} </h3>
         </Grid>
-        <Grid item xs={12} md={4}>
+        <Grid item xs={12} md={3} sx={{ backgroundColor: "#FD0072", borderRadius: 1.5 ,color: "white", mt:2, mr:16}}>
           <h3>Total Deaths: {data?.TotalDeaths}</h3>
         </Grid>
-        <Grid item xs={12} md={4}>
+        <Grid item xs={12} md={3} sx={{ backgroundColor: "#FD0072", borderRadius: 1.5 ,color: "white", mt:2}}>
           <h3>Total Recovered: {data?.TotalRecovered}</h3>
         </Grid>
-        {/* 
-            <Grid item sm={6} style={{ fontSize: "20px" }}>
-                  <Grid item>Item: </Grid>
-                  <Grid item>Description: </Grid>
-                  <Grid item>Seller: </Grid>
-        </Grid> */}
       </Grid>
     </Container>
   );

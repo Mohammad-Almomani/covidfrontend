@@ -4,7 +4,6 @@ import AppHeader from "./NavBar/AppHeader";
 import AllCountries from "./Pages/AllCountries/AllCountries";
 import Home from "./Pages/Home/Home";
 import MyRecords from "./Pages/MyRecords/MyRecords";
-// import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function AppRoutes() {
   return (

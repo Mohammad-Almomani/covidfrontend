@@ -1,0 +1,27 @@
+
+.Nav-Bars {
+    background-color: #282c34 !important;
+    color: white !important;
+    font-weight: bold !important;
+  }
+  
+  .NavButton {
+    color: white !important;
+    background-color: transparent !important;
+  }
+  
+  .Header {
+    width: 100% !important;
+  }
+  
+  .Header img {
+    width: 100% !important;
+    display: block !important;
+    object-fit: contain !important;
+  }
+
+.Statistics {
+    background-color: "#FD0072" !important;
+     color: "white" !important;
+     margin-top: 2% !important;
+}
