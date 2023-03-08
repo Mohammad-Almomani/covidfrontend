@@ -79,7 +79,7 @@ export default function CountryCard({ idx, item }) {
           <Button
             onClick={handleAdd}
             variant="contained"
-            sx={{ mb: 1, backgroundColor: "#4F30C0", fontWeight: "bold" }}
+            sx={{ mb: 1, width:"80%", backgroundColor: "#4F30C0", fontWeight: "bold" }}
             fullWidth
           >
             Add To My Records
